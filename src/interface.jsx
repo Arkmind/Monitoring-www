@@ -2,10 +2,10 @@
 import {Login} from './elements/login.jsx'
 import {Server} from './elements/server.jsx'
 
-import React from 'react'
+import React, { Component } from 'react'
 import {listenner} from './core/dispatcher'
 
-export class Interface extends React.Component {
+export class Interface extends Component {
 
   constructor() {
     super(...arguments)
